@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+background: lightpink !important;
+font-family: 'Roboto', sans-serif;
+}
+.nav-link
+{
+    color:black !important;
+}
+.card{
+    opacity: .5px;
+    width:250px !important;
+    margin-top: 10px !important;
+
+}
+.card-img-top {
+    width:240px !important;
+    height:150px !important;
+}
+.imag {
+    margin-top: 5px;
+    width: 1105px !important;
+    height:340px !important;
+   background: url("../Images/cake1.jpg");
+   background-size:cover ;
+   animation: slide 20s none;
+}
+@keyframes slide{
+   25%{background:url("../Images/cake2.jpg");background-size:cover;}
+}
+.fa{
+    size: 40px !important;
+   
+    color: red;
+}
+.tex {
+    text-align: center;
+    text-decoration: underline;
+}
+.row {
+    float: left !important;
+}
+.cake {
+    margin-top: 5px;;
+    list-style: none;
+}
+li{
+    float:left;
+}
+img {
+    border:solid 1px yellow;
+    width:200px;
+    height: 150px;
+    margin: 5px;
+}
+h3 {
+    text-align: center;
+    color: maroon;
+}
+.badge {
+    width: 60px !important;
+    position: absolute !important;
+ right:8px!important;
+ top:5px !important;
+    border: 50% !important;
+}
